@@ -13,10 +13,10 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
 import org.springframework.security.web.SecurityFilterChain;
 
-//@Configuration
+@Configuration
 public class SecurityConfigDay11 {
 
-    @Bean
+    //@Bean
     public SecurityFilterChain securityFilterChain(
             HttpSecurity http)
             throws Exception {

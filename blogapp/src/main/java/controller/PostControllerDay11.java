@@ -2,7 +2,7 @@ package blogapp.controller;
 
 import org.springframework.web.bind.annotation.*;
 
-//@RestController
+@RestController
 @RequestMapping("/day11/posts")
 public class PostControllerDay11 {
 

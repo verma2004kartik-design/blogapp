@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.web.bind.annotation.*;
 
-//@RestController
+@RestController
 @RequestMapping("/day12/auth")
 public class AuthControllerDay12 {
 

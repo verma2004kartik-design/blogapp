@@ -9,10 +9,10 @@ import org.springframework.security.config.annotation.authentication.configurati
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 
-//@Configuration
+@Configuration
 public class SecurityConfigDay13 {
 
-    @Bean
+    //@Bean
     public SecurityFilterChain securityFilterChain(
             HttpSecurity http)
             throws Exception {
@@ -32,7 +32,7 @@ public class SecurityConfigDay13 {
         return http.build();
     }
 
-    @Bean
+    //@Bean
     public AuthenticationManager authenticationManager(
             AuthenticationConfiguration configuration)
             throws Exception {
